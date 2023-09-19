@@ -1,108 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Tutorial 02 - Starter File</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <!-- CSS -->
-    <!-- The following CSS has been added so that the page
+<head>
+  <meta charset="UTF-8" />
+  <title>Tutorial 02 - Starter File</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <!-- CSS -->
+  <!-- The following CSS has been added so that the page
     doesn't look super awful -->
-    <!-- Ignore everything in the <style> tag for now -->
-    <!-- We will learn about CSS later in the course -->
-    <!-- Scroll down for instructions on how to complete the tutorial -->
-    <style>
-      body {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.2rem;
-        line-height: 1.6;
-      }
-      img {
-        width: 100%;
-        display: block;
-        margin: 0 auto;
-      }
-    </style>
-  </head>
-  <body>
-    <!-- INSTRUCTIONS -->
-    <!-- TO DO: Add markup to the following content so that it has the proper content structure -->
-    <!-- You will need to use the following tags: h1, h2, h3, p, ul, li, a, section, nav, header, footer, main, input, label, fieldset, select, form, table, thead, tobody, tfoot, tr, td, img  -->
-    <!-- The correct element appears ABOVE the text -->
-    <!-- You may remove the extra comments when you finish, but you don't need to -->
-    <header>
-      <h2>Site Header</h2>
-   
-      <p>City of Ottawa Random Data</p>
-      
-      <img 
-      src="./images/house.png"
-      
-   
-      
-   
-      <nav>
+  <!-- Ignore everything in the <style> tag for now -->
+  <!-- We will learn about CSS later in the course -->
+  <!-- Scroll down for instructions on how to complete the tutorial -->
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.2rem;
+      line-height: 1.6;
+    }
+
+    img {
+      width: 100%;
+      display: block;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- INSTRUCTIONS -->
+  <!-- TO DO: Add markup to the following content so that it has the proper content structure -->
+  <!-- You will need to use the following tags: h1, h2, h3, p, ul, li, a, section, nav, header, footer, main, input, label, fieldset, select, form, table, thead, tobody, tfoot, tr, td, img  -->
+  <!-- The correct element appears ABOVE the text -->
+  <!-- You may remove the extra comments when you finish, but you don't need to -->
+  <header>
+    <h2>Site Header</h2>
+
+    <p>City of Ottawa Random Data</p>
+
+    <img src="./images/house.png" alt="image of house" />
+
+
+
+
+    <nav>
       <h3>site menu</h3>
       <ul>
-      <li><a href="#">home</a></li>
-      <li><a href="#">about us</a></li>
-      <li><a href="#">contact</a></li>
+        <li><a href="#">home</a></li>
+        <li><a href="#">about us</a></li>
+        <li><a href="#">contact</a></li>
       </ul>
-      </nav>
-      </header>
-     
-      <main>
-      <h1>random city of ottawa things</h1>
-   
-      <section>
+    </nav>
+  </header>
+
+  <main>
+    <h1>random city of ottawa things</h1>
+
+    <section>
       <h2>table of contents</h2>
-   
+
       <ul>
-      <li>
-        <a href="#summary">housing construction summary for q1 2023</a>
-      </li>
-   
-   
+        <li>
+          <a href="#summary">housing construction summary for q1 2023</a>
+        </li>
+        <li><a href="#wards">wards</a></li>
+        <li><a href="#tax">property taxes</a></li>
+        <li><a href="#form">ward councillor evaluation form</a></li>
       </ul>
-   
-   
-      </section>
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-      </main>
-  
-  
-  
-  
-  
-  
-  </body>
+    </section>
+
+    <section>
+      <h2 id="summary>">Housing Construction Summary for Q1 2023</h2>
+
+      <p>In Q1 2023, there were:</p>
+
+      <ul>
+        <li>
+          2,716 dwellings granted land use permissions through Official Plan or Zoning By-law Amendments
+          <ul>
+            <li>10 of which were not-for-profit dwellings</li>
+          </ul>
+        </li>
+        <li>4,621 dwellings approved through Plan of Subdivision, Plan of Condominium, Site Plan Control, Minor
+          Variance, and Severance applications</li>
+        <li>3,187 net dwellings issued building permits</li>
+        <li>1,626 housing starts</li>
+        <li>14,945 dwellings under construction
+        <ul>
+        <li>579 of which are not-for-profit dwellings</li>
+       </ul>
+       </li>
+       <li>2,135 dwellings where construction was completed</li>
+       </ul>
+    </section>
+
+    <section>
+     <h2 id="wards">wards</h2>
+     <p>
+      The City of Ottawa is divided into 24 wards. Each ward has a councillor who represents the residents of that ward.
+     </p>
+
+     <img
+        src="images/ottawa-map.png"
+        alt="Map of Ottawa with ward boundaries highlighted" />
+   </section>
+ 
+   <section>
+   <h2 id="tax">Property Taxes</h2>
+
+   <p>
+    The City of Ottawa collects property taxes from residents to help pay for services such as roads, parks, and public transit. 
+   </p>
+   </section>
+
+   <section>
+   <h2 id="form">Ward Councillor Evaluation Form</h2>
+
+   </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </main>
+
+
+
+
+
+
+</body>
+
 </html>
